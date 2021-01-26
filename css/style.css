@@ -39,16 +39,19 @@
 
 .header-logo {
     position: absolute;
+    width: 100%;
 }
 .logo {
     height: 671px;
 }
 .header-title {
     position: absolute;
-    padding: 460px 400px 131px 400px;
+    padding: 460px 0 131px;
     font-size: 72px;
     font-weight: 700;
     line-height: 80px;
+    width: 100%;
+    text-align: center;
 }
 .carousel-indicators {
     position: absolute;
