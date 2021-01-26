@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000 !important;
+    /* width: 1440px; */
+}
+
+.header-top {
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #C4C4C4;
+}
+.header-nav {
+    padding: 0 204px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.nav-item a {
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.nav-item:first-child {
+    font-weight: 700;
+}
+.contacts {
+    padding: 21px 201px;
+    display: flex;
+    column-gap: 25px;
+}
+.contacts img {
+    height: 23px;
+}
+
+.header-logo {
+    position: absolute;
+}
+.logo {
+    height: 671px;
+}
+.header-title {
+    position: absolute;
+    padding: 460px 400px 131px 400px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+}
